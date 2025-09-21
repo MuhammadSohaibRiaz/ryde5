@@ -34,18 +34,18 @@ export default function LandingPage() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <Card className="bg-white/10 border-0 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
-              <CardContent className="p-8">
+            <Card className="bg-white/10 border-0 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 h-full">
+              <CardContent className="p-8 h-full flex flex-col">
                 <div className="mb-6">
                   <Users className="w-16 h-16 text-primary-500 mx-auto" />
                 </div>
                 <h2 className="text-2xl font-semibold text-white mb-4">Ride with Us</h2>
-                <p className="text-gray-300 mb-8 leading-relaxed">
+                <p className="text-gray-300 mb-8 leading-relaxed flex-grow">
                   Get to your destination safely and comfortably with our trusted drivers. 
                   Premium service at competitive prices.
                 </p>
                 <Link href="/auth/passenger/login">
-                  <Button className="w-full bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center">
+                  <Button className="w-full bg-primary-500 hover:bg-primary-600 text-white py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center">
                     Continue as Passenger
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
@@ -53,18 +53,18 @@ export default function LandingPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-white/10 border-0 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
-              <CardContent className="p-8">
+            <Card className="bg-white/10 border-0 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 h-full">
+              <CardContent className="p-8 h-full flex flex-col">
                 <div className="mb-6">
                   <Car className="w-16 h-16 text-primary-500 mx-auto" />
                 </div>
                 <h2 className="text-2xl font-semibold text-white mb-4">Drive with Us</h2>
-                <p className="text-gray-300 mb-8 leading-relaxed">
+                <p className="text-gray-300 mb-8 leading-relaxed flex-grow">
                   Turn your car into an income source and be your own boss. 
                   Flexible hours, competitive earnings.
                 </p>
                 <Link href="/auth/driver/login">
-                  <Button className="w-full bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center">
+                  <Button className="w-full bg-primary-500 hover:bg-primary-600 text-white py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center">
                     Continue as Driver
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>

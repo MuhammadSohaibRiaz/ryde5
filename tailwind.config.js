@@ -14,11 +14,11 @@ module.exports = {
           200: '#ffcaa3',
           300: '#ffa366',
           400: '#ff7733',
-          500: '#FF5722', // Main brand color - Ryde5 logo orange
-          600: '#e84a1a',
-          700: '#c13a12',
-          800: '#9e3017',
-          900: '#802816',
+          500: '#FF7043', // Main brand color - Ryde5 logo orange (lighter)
+          600: '#f4511e',
+          700: '#d84315',
+          800: '#bf360c',
+          900: '#8d2f0a',
         },
         gray: {
           50: '#f9fafb',
